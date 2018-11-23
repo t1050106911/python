@@ -59,7 +59,6 @@ chmod -w 文件
 
 
 
-
 1.git add和git stage的区别是什么
 向索引中添加文件内容    
 2.git rm --cached 和git rm -f的区别是什么
