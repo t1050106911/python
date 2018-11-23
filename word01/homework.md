@@ -1,4 +1,4 @@
-##1.以容易理解的格式列出/home 目录中所有以”d”开头的文件目录的大小
+<h4>1.以容易理解的格式列出/home 目录中所有以”d”开头的文件目录的大小
  ls -lh d*
 
 
@@ -106,4 +106,5 @@ git clone remote_path #克隆远程仓库到当前文件夹，会一起克隆远
 git fetch 拉取不会和本地合并
 git pull  拉取会和本地合并   
 10.如何添加远程仓库
+
 git rmote add origin 地址
