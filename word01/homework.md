@@ -117,6 +117,7 @@ git reset HEAD file
 
 9.git fetch 和 git pull的区别
 
+
 git fetch 拉取不会和本地合并
 git pull  拉取会和本地合并   
 10.如何添加远程仓库
