@@ -33,7 +33,7 @@ ps -a |head -n 4
 Mount is denied because the NTFS volume is already exclusively opened.
 The volume may be already mounted, or another software may use it which could be identified for example by the help of the 'fuser' command.
 
-```
+
 NTFS卷被拒绝是因为已经执行打开，可能已经被挂载或者有应用程序正在使用它，
 可以使用fuser命令显示正在使用指定的file，file system或者socket的进程信息。
 
@@ -50,9 +50,10 @@ NTFS卷被拒绝是因为已经执行打开，可能已经被挂载或者有应�
 
 
 9.ssh 服务端口是多少,ssh免密登录方式的原理是什么
-22 
+交换公钥  端口：22
 
 10.权限755代表什么权限,如果我想把所有的w权限去除应该使用什么命令
+用户权限：读写执行  用户组：读执行  其他用户：读执行
 chmod -w 文件
 
 
@@ -96,13 +97,14 @@ Git不会再次保存，而只对上次保存的快照作一链接。
 git init # 初始化本地的仓库，会生成.git文件，此时不会加入任何文件的快照
 git clone remote_path #克隆远程仓库到当前文件夹，会一起克隆远程的文件夹
 
-每次提交都忽略.idea文件夹里面的东西怎么办
+6.每次提交都忽略.idea文件夹里面的东西怎么办
 
-如果编辑一个文件之后并且加入了暂存区,但是你后悔了,想把文件恢复到没有修改之前的样子,怎么办
+7.如果编辑一个文件之后并且加入了暂存区,但是你后悔了,想把文件恢复到没有修改之前的样子,怎么办
 
-如何检出标签?
+8.如何检出标签?
 
-git fetch 和 git pull的区别
-      
-如何添加远程仓库
+9.git fetch 和 git pull的区别
+git fetch 拉取不会和本地合并
+git pull  拉取会和本地合并   
+10.如何添加远程仓库
 git rmote add origin 地址
